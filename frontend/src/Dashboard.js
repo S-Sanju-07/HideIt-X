@@ -54,7 +54,8 @@ function Dashboard({ setPage }) {
 
   const fetchStats = async () => {
     try {
-      const response = await fetch("https://hideit-x-0goz.onrender.com/dashboard/stats", {
+      // const response = await fetch("https://hideit-x-0goz.onrender.com/dashboard/stats", {
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/dashboard/stats`, {
         headers: {
             "Authorization": `Bearer ${localStorage.getItem("token")}`
         }
