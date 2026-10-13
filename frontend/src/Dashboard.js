@@ -11,12 +11,8 @@ import {
   FaShieldAlt,
   FaEnvelope,
   FaThLarge,
-  FaUserCircle,
-  FaBell,
-  FaSearch,
   FaSyncAlt,
   FaPlusCircle,
-  FaStar,
   FaSun,
   FaMoon
 } from "react-icons/fa";
