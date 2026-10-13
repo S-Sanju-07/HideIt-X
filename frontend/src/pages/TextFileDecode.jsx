@@ -76,7 +76,7 @@ function TextFileDecode({ setPage }) {
       const result = await new Promise((resolve, reject) => {
         const xhr = new XMLHttpRequest();
         xhrRef.current = xhr;
-        xhr.open("POST", "http://127.0.0.1:5000/text-file/decode");
+        xhr.open("POST", `${process.env.REACT_APP_API_URL}/text-file/decode`);
         xhr.setRequestHeader("Authorization", `Bearer ${token}`);
         // Default responseType is text, which is fine for JSON
 

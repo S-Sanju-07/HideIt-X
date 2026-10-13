@@ -186,7 +186,7 @@ const Home = ({ setPage }) => {
             {/* ================= FOOTER ================= */}
             <footer className="home-footer">
                 © 2026 HideIT X | A Web Platform Integrating Multimedia Steganography
-                with Secure Communication Protocol | Developed by Sanju S & Pranaav K K
+                with Secure Communication Protocol | Developed by Sanju S 
             </footer>
 
         </div>

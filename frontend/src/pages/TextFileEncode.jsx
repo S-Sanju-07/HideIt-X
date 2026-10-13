@@ -76,7 +76,7 @@ function TextFileEncode({ setPage }) {
       const result = await new Promise((resolve, reject) => {
         const xhr = new XMLHttpRequest();
         xhrRef.current = xhr;
-        xhr.open("POST", "http://127.0.0.1:5000/text-file/encode");
+        xhr.open("POST", `${process.env.REACT_APP_API_URL}/text-file/encode`);
         xhr.setRequestHeader("Authorization", `Bearer ${token}`);
         xhr.responseType = "blob"; // Important for file download
 
