@@ -54,7 +54,7 @@ function Dashboard({ setPage }) {
 
   const fetchStats = async () => {
     try {
-      const response = await fetch("http://localhost:5000/dashboard/stats", {
+      const response = await fetch("https://hideit-x-0goz.onrender.com/dashboard/stats", {
         headers: {
             "Authorization": `Bearer ${localStorage.getItem("token")}`
         }

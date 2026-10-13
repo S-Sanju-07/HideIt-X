@@ -4,7 +4,7 @@ import "./SendMail.css";
 
 const MAX_ATTACH_MB = 25;
 const MAX_ATTACH_BYTES = MAX_ATTACH_MB * 1024 * 1024;
-const API = "http://localhost:5000";
+const API = "https://hideit-x-0goz.onrender.com";
 
 function formatSize(bytes) {
   if (bytes < 1024) return `${bytes} B`;
